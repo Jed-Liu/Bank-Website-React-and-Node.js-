@@ -6,13 +6,14 @@ A basic bank website built using React (Frontend) and Node.js (Express Backend).
 - Account management: Create an account and log in
 - Account Verification: Verify account credientials 
 - Funds transfer: Transfer balance between different accounts
-- Transaction: Maintaian and display all transaction actions history
+- Transaction: Maintain and display all transaction actions history
 - Change user information such as their address, state, password, etc
 
 # Technologies Used
 - React - JavaScript (Frontend)
 - Node.js - JavaScript (Backend)
 - Sqlite3 (Database for storing user data and transactions)
+- React Redux - State management for handling user data, transactions, and authentication status
  
 # Usage
 1. Copied/Clone the project code from the command line
@@ -24,9 +25,9 @@ A basic bank website built using React (Frontend) and Node.js (Express Backend).
 # Notes
  - Make sure Node.js and npm is installed.
  - The backend server listens on port 5000, while the frontend is hosted on port 3000.
- - Most of the file are need to run react and node.js. Download the necessary dependency by following step 2 in usage. 
+ - Most of the file are need to run react and node.js.
 
 # Future features
 - Data Encryption: Encrypt sensitive data like passwords, transaction details
-- Password Reset: Allow users to reset their password if they forget it by sending a reset link to their email.
+- Password Reset: Allow users to reset their password if they forget it by sending a code to their email.
 - 2FA: Add two-factor authentication for additional security when logging in.
