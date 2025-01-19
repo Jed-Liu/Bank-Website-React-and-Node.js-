@@ -1,6 +1,6 @@
 # Bank-Website-React-and-Node.js-
 A basic bank website built using React (Frontend) and Node.js (Express Backend).
-- Video Demo: https://drive.google.com/file/d/1XCahkY1yF3vvav7KC4zUH-rDHRl_EoXh/view
+- Video Demo: https://drive.google.com/drive/folders/1-wYV0YIa7vOiEwwgaKzDjkXhdiMZl78X?usp=drive_link
 
 # Features 
 - Account management: Create an account and log in
