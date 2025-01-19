@@ -1,0 +1,64 @@
+.parent{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+}
+
+button {
+  background-color: #368cdd; 
+  color: white;             
+  padding: 12px 20px;       
+  border: none;             
+  border-radius: 5px;      
+  cursor: pointer;                    
+  font-weight: bold;        
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+select{
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.row_container{
+  display: flex;
+  gap: 50px; 
+  
+}
+
+.column_container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  
+}
+
+table {
+  border-collapse: collapse; /* Merge cell borders for clean look */
+  width: 100%; /* Table spans the width of the page */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Add borders to cells */
+  padding: 8px; /* Add padding for readability */
+  text-align: left; /* Align text to the left */
+}
+th {
+  background-color: #f2f2f2; /* Light background for headers */
+}
